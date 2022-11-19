@@ -1,0 +1,114 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    background-image: linear-gradient(rgb(127, 127, 127), rgb(81, 81, 81));
+
+}
+
+ul {
+    margin:auto;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(50, 50, 50);
+    list-style-type: none;
+  }
+
+li {
+    padding: 15px;
+    display: inline;
+}
+
+a {
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+}
+
+a:hover {
+    text-decoration:none;
+    color:rgb(0, 255, 153);
+}
+
+#navigation {
+    text-align:right;
+    z-index:3;
+    top: 0;
+    width:100%;
+    position:fixed;
+}
+
+#content {
+    margin:auto;
+    z-index:1;
+    position:relative;
+    top: 50px;
+    height:1200px;
+}
+
+#footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align:center;
+    z-index:2;
+    bottom: 0;
+    width:100%;
+    margin:auto;
+    font-size: 12px;
+    color:white;
+    background-color: rgb(0, 0, 0);
+}
+
+#logo {
+    z-index: 4;
+    position: fixed;
+    max-height: 35px;
+    padding-left: 25px;
+    padding-top: 11px;
+}
+
+#container {
+    z-index: 1;
+    position:relative;
+    margin:auto;
+    top: -1000px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 600px;
+    
+}
+
+input[type=text], select, textarea { /*code for this was taken from https://www.w3schools.com/howto/howto_css_contact_form.asp*/
+    width: 100%;
+    padding: 12px;
+    border: 0px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] { /*code for this was taken from https://www.w3schools.com/howto/howto_css_contact_form.asp*/
+    background-color: rgb(0, 255, 153);
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover { /*code for this was taken from https://www.w3schools.com/howto/howto_css_contact_form.asp*/
+    background-color: #45a049;
+  }
+  
+  h1 {
+    margin: 0 auto;
+    text-align:center;
+    padding-top: 70px;
+    font-size: 40px;
+    color:white;
+  }
